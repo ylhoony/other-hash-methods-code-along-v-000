@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
   #code your solution here!
 
-  groceries.values
+  groceries.values.flatten
 
   # groceries.each do |type, list|
   #   type.values
