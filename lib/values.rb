@@ -10,7 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  result = Array.new()
   groceries.each do |type, list|
-    binding.pry
+    result << type.values
   end
 end
